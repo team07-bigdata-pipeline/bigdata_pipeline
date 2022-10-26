@@ -1,0 +1,17 @@
+ls
+;
+showdatabase
+;
+show;
+clear;
+select 0;
+showdatabase;
+show tables;
+CREATE TABLE pokes (foo INT, bar STRING);
+showdatabase;
+CREATE DATABASE userdb;
+use metastore;
+hive --service metastore
+;
+SHOW DATABASES;
+create database test;
